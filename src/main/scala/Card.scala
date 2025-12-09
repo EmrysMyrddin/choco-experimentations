@@ -15,6 +15,16 @@ val tetris = Piece("tetris", "221")(
   (⬜, ⬛, ⬛)
 )
 
+val shortT = Piece("shortT", "81")(
+  (⬛, ⬛, ⬛),
+  (⬜, ⬛, ⬜)
+)
+
+val longT = Piece("longT", "95")(
+  (⬛, ⬛, ⬛, ⬛),
+  (⬜, ⬛, ⬜, ⬜),
+)
+
 val square = Piece("square", "170")(
   (⬛, ⬛),
   (⬛, ⬛)
